@@ -1,0 +1,66 @@
+body {
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+.font {
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 20px 80px;
+    text-align: center;
+    background-color: #AACDE9;
+    font-size: 1.5em;
+    color: #FFF1AA;
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.yellow-button {
+    width: 50%;
+    height: 40px;
+    margin: auto;
+    color: #3F53FA;
+    background-color: #FFF1AA;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100vw;
+}
+
+.input-style {
+    height: 40px;
+    border: 2px solid #FFF1AA;
+    border-radius: 3px;
+    text-align: center;
+    color: #3F53FA;
+    font-size: 18px;
+}
+
+.blue {
+    color: #aacde9;
+}
+
+.green {
+    color: palegreen;
+}
+
+.yellow {
+    color: #fff1aa;
+}
