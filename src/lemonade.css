@@ -53,8 +53,8 @@ button:focus {
 }
 
 .glass-front {
-    height: 400px;
-    width: 200px;
+    height: 350px;
+    width: 175px;
     background: rgba(255, 255, 255, .5);
     position: relative;
     overflow: hidden;
