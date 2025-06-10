@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <a id="checkout" href="cart.html"></a>
+    <button id="checkout"></button>
     <div class="container">
         <div class="background">
             <div class="glass-back">
@@ -21,6 +21,9 @@
                     <div id="lemonJuice"></div>
                     <div id="water"></div>
                     <div id="sugar"></div>
+                    <div id="iceBox">
+                        <img class="ice" src="../img/ice.svg" alt="Ice Cube" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -32,8 +35,8 @@
                     <h4 id="lemonJuiceValue">3 ounces</h4>
                     <button name="lemonJuice" class="decrement">-</button>
                 </div>
-
             </div>
+
             <div name="water" class="row">
                 <label>Water</label>
                 <div class="row">
@@ -41,8 +44,8 @@
                     <h4 id="waterValue">3 ounces</h4>
                     <button name="water" class="decrement">-</button>
                 </div>
-
             </div>
+
             <div name="sugar" class="row">
                 <label>Sugar</label>
                 <div class="row">
@@ -50,8 +53,8 @@
                     <h4 id="sugarValue">6 tablespoons</h4>
                     <button name="sugar" class="decrement">-</button>
                 </div>
-
             </div>
+
             <div name="ice" class="row">
                 <label>Ice</label>
                 <div class="row">
@@ -59,10 +62,10 @@
                     <h4 id="iceValue">5 cubes</h4>
                     <button name="ice" class="decrement">-</button>
                 </div>
-
             </div>
 
             <button class="yellow-button font">Add to order</button>
+            <span id="lemonadeError" class="error hidden">You have to add a minimum of 1 ingredient to create a lemonade</span>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
